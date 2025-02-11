@@ -52,7 +52,6 @@ function criarCard(personagem) {
     card.appendChild(imagem);
     card.appendChild(h2);
     card.appendChild(p);
-D
     container.appendChild(card);
 }
 personagens.forEach(criarCard);
